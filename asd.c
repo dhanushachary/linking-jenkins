@@ -5,6 +5,7 @@
 int maxi(int i1, int i2)
 {
     return (i1 > i2) ? i1 : i2;
+//adding extra line
 }
 
 void test_maxi(void)
