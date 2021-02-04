@@ -11,6 +11,8 @@ int maxi(int i1, int i2)
 void test_maxi(void)
 {
     CU_ASSERT(maxi(0,2) == 2);
+    CU_ASSERT(maxi(1,6) == 7);
+
 }
 
 int main() {
